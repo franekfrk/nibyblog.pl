@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.log
+.htpasswd/
+*.pem
+*.key
+hts-cache/
+cookies.txt
+hts-log.txt
+/public_html/wp-*.php
+/public_html/xmlrpc.php
+*.save
+*.backup.*

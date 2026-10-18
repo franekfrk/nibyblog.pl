@@ -1,0 +1,21 @@
+* { font-size: 16pt; font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; color: black; }
+
+.blip-user { text-align: right; font-variant: small-caps; font-size: xx-large; background: #F0F0F0; padding: 20px; margin: 20px; }
+.blip-user img { margin: 5px; width: 200px; height: 200px; }
+.blip-user a img { border: none; }
+.blip-year { padding-top: 20px; padding-bottom: 20px; padding-left: 0px; padding-right: 0px; margin-top: 20px; margin-bottom: 80px; margin-left: 20px; margin-right: 20px; }
+.blip-year-name { text-align: right; font-size: x-large; background: #F0F0F0; padding: 20px; margin-top: 20px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; } 
+.blip-month { padding-top: 20px; padding-bottom: 20px; padding-left: 0px; padding-right: 0px; margin-top: 20px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; }
+.blip-month-name { text-align: right; font-size: large; background: #F0F0F0; padding: 20px; margin-top: 20px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; }
+.blip-blip { position: relative; width: 800px; height: 100px;  background: #F0F0F0; padding: 10px; margin-top: 20px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; }
+.blip-blipid { font-size: x-small; position: absolute; top: 10px; }
+.blip-blipdate { font-size: x-small; position: absolute; top: 10px; right: 220px; }
+.blip-bliptext { font-size: medium; position: absolute; top: 35px; width: 580px; }
+.blip-bliptext a { font-size: medium; }
+.blip-blippic { position: absolute; right: 10px; }
+.blip-blippic-img { 
+  max-width: 200px;
+  max-height: 100px;
+  width: expression(this.width > 200 ? "200px" : true);
+  height: expression(this.height > 100 ? "100px" : true);
+}
